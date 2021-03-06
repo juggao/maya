@@ -200,12 +200,13 @@ module.exports = {
         var day, month, year;
         
         today = new Date();
-
+        console.log(today);
+        
         day = today.getDate();
-		month = today.getMonth();
-		year = today.getFullYear();
+        month = today.getMonth();
+        year = today.getFullYear();
 
-		return module.exports.convertDate(month, day, year);
+        return module.exports.convertDate(month, day, year);
     }
 
 }
